@@ -1,0 +1,83 @@
+<html>
+
+<body>
+
+    <h2>Javascript Calculator </h2>
+    <p>
+        <input id="f"> Enter first Number
+        <br>
+        <br>
+        <input id="s"> Enter Second Number
+        <br>
+        <br>
+        <button onclick="add()"> Add No </button>
+        <button onclick="sub()"> Sub No </button>
+        <button onclick="mull()"> Mul No </button>
+        <button onclick="div()"> Div No </button>
+
+
+
+
+    </p>
+
+    <script>
+        function add() {
+            var a = document.getElementById("f").value
+            var b = document.getElementById("s").value
+            a = parseFloat(a);
+            b = parseFloat(b);
+            var Add = a + b;
+            alert(Add);
+
+
+        }
+
+        function sub() {
+            var c = document.getElementById("f").value
+            var d = document.getElementById("s").value
+            c = parseFloat(c);
+            d = parseFloat(d);
+            var Sub = c - d;
+            alert(Sub);
+
+        }
+
+        function mull() {
+            var e = document.getElementById("f").value
+            var f = document.getElementById("s").value
+            e = parseFloat(e);
+            f = parseFloat(f);
+            var Mul = e * f;
+            alert(Mul);
+
+        }
+
+        function div() {
+            var g = document.getElementById("f").value
+            var h = document.getElementById("s").value
+            g = parseFloat(g);
+            h = parseFloat(h);
+            var Div = g / h;
+            alert(Div);
+
+
+
+
+
+
+
+
+
+        }
+    </script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
